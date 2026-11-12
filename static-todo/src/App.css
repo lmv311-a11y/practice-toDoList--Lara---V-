@@ -1,0 +1,25 @@
+#Header{
+    color: rgb(106, 54, 155);
+    text-align: center;
+    margin-top: 100px;  
+}
+
+.list{
+    margin-top: 100px;
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    gap: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.list li{
+border-style: double;
+border-radius: 25px;
+padding: 15px;
+background-color: rgb(213, 180, 245);
+transition: background-color 2s ease;
+}
+
+.list li:hover{
+    background-color: bisque;
+}
